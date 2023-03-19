@@ -27,29 +27,31 @@ export const PartnersPage = () => {
     <Box height="10vh"  paddingTop="15vh" paddingBottom="15vh" paddingRight="25vw" paddingLeft="25vw"textAlign="center">
             <Heading>Partners Interface</Heading>
     </Box>
-     <Box height="100vh"paddingBottom="15vh" paddingRight="25vw" paddingLeft="25vw">
+     <Box height="100%"paddingBottom="15vh" paddingRight="25vw" paddingLeft="25vw">
 
-    <Heading fontWeight="600" fontSize="25px" marginBottom="10px">Wallet Adress</Heading>
-    <Input placeholder='0x00000000000000000000000' marginBottom="40px"/>
-    <Heading fontWeight="600" fontSize="25px" marginBottom="10px">Brand</Heading>
-    <Input placeholder='Rolex' marginBottom="40px"/>
-    <Heading fontWeight="600" fontSize="25px" marginBottom="10px">Model</Heading>
-    <Input placeholder='DateJust' marginBottom="40px"/>
-    <Heading fontWeight="600" fontSize="25px" marginBottom="10px">Year</Heading>
-    <Input placeholder='1980s' marginBottom="40px"/>
-    <Heading fontWeight="600" fontSize="25px" marginBottom="10px">Series number</Heading>
-    <Input placeholder='#49017' marginBottom="40px"/>
-    <Heading fontWeight="600" fontSize="25px" marginBottom="10px">Dimensions (mm)</Heading>
-    <Input placeholder='#49017' marginBottom="40px"/>
-    <Heading fontWeight="600" fontSize="25px" marginBottom="10px">Weight</Heading>
-    <Input placeholder='Benouda' marginBottom="40px"/>
-    <Heading fontWeight="600" fontSize="25px" marginBottom="10px">About</Heading>
-    <Input placeholder='Benouda' marginBottom="40px"/>
+         <Box border={"2px"}  borderRadius="10px" borderColor="teal" padding="50px">
+    
+        <Heading fontWeight="600" fontSize="25px" marginBottom="10px">Wallet Adress</Heading>
+        <Input borderColor="black" placeholder='0x00000000000000000000000' marginBottom="40px"/>
+        <Heading fontWeight="600" fontSize="25px" marginBottom="10px">Brand</Heading>
+        <Input borderColor="black" placeholder='Rolex' marginBottom="40px"/>
+        <Heading fontWeight="600" fontSize="25px" marginBottom="10px">Model</Heading>
+        <Input borderColor="black" placeholder='DateJust' marginBottom="40px"/>
+        <Heading fontWeight="600" fontSize="25px" marginBottom="10px">Year</Heading>
+        <Input borderColor="black" placeholder='1980s' marginBottom="40px"/>
+        <Heading fontWeight="600" fontSize="25px" marginBottom="10px">Series number</Heading>
+        <Input borderColor="black" placeholder='#49017' marginBottom="40px"/>
+        <Heading fontWeight="600" fontSize="25px" marginBottom="10px">Dimensions (mm)</Heading>
+        <Input borderColor="black" placeholder='#49017' marginBottom="40px"/>
+        <Heading fontWeight="600" fontSize="25px" marginBottom="10px">Weight</Heading>
+        <Input borderColor="black" placeholder='Benouda' marginBottom="40px"/>
+        <Heading fontWeight="600" fontSize="25px" marginBottom="10px">About</Heading>
+        <Input borderColor="black" placeholder='Benouda' marginBottom="40px"/>
 
-
-    <Button colorScheme="teal">Create NFT</Button>
+        <Button colorScheme="teal">Create NFT</Button>
         
-
+        </Box>
+            
      </Box>
 
 </>
