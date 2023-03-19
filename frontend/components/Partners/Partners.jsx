@@ -6,7 +6,7 @@ export const PartnersPage = () => {
     return (
 <>
         <Flex bgColor="whiteAlpha.900" bg="black"  color="white" flexDirection="row" justifyContent="space-between" height="13vh"  paddingBottom="3vh" paddingTop="3vh" paddingRight="3vw" paddingLeft="3vw">
-                <Flex><Heading display="flex" color="white" letterSpacing="-1px">Sāphyr.</Heading><Text fontWeight={"300"}>Pro</Text></Flex>
+                <a href="/"><Flex><Heading display="flex" color="white" letterSpacing="-1px">Sāphyr.</Heading><Text fontWeight={"300"}>Pro</Text></Flex></a>
 
                 <Flex>
                     {/* <Flex marginTop="1.2vh" marginRight="25px">
