@@ -10,7 +10,7 @@ export const HomePage = () => {
         bgRepeat="no-repeat" paddingLeft="5%" justifyContent="left" paddingTop="25vh" paddingBottom="30vh">
 
             <Heading fontSize="65px" color="">
-            Certified your luxury item <Heading fontSize="65px" fontWeight="300" display="flex"><Heading textDecoration="underline" fontSize="65px" fontWeight="300" >easily</Heading> <Heading marginLeft="15px" fontSize="65px" fontWeight="700"  textDecoration="none">with Saphyr.</Heading></Heading> 
+            Certified your luxury item <Heading fontSize="65px" fontWeight="300" display="flex"><Heading textDecoration="underline" fontSize="65px" fontWeight="300" >easily</Heading> <Heading marginLeft="15px" fontSize="65px" fontWeight="700"  textDecoration="none">with Sāphyr.</Heading></Heading> 
                 
             </Heading>
             <Button bg="black" color="white" marginRight="15px" marginTop="25px" variant="outline" fontSize="20px" fontWeight="400" padding="25px">Authenticate my item</Button>
